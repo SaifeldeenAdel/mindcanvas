@@ -12,10 +12,11 @@ module.exports = {
 		extend: {
       fontFamily: {
         sans: ["var(--heebo)"],
-        serif: ["var(--fraunces)"]
+        serif: ["var(--fraunces)"],
+        "montserrat": ["var(--montserrat)"],
       },
       colors: {
-        primary: '#00121a',
+        primary: '#001f2c',
         secondary: '#ebf9ff'
       }
     },

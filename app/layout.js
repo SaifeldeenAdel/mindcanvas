@@ -1,7 +1,6 @@
-import Link from "next/link";
 import "./globals.css";
-import { Heebo, Fraunces } from "next/font/google";
-import SideBar from "./(Sidebar)/SideBar";
+import { Heebo, Fraunces, Montserrat } from "next/font/google";
+import SideBar from "./components/Sidebar/SideBar";
 
 const heebo = Heebo({
 	subsets: ["latin"],
@@ -15,12 +14,18 @@ const fraunces = Fraunces({
   variable: "--fraunces"
 })
 
+const montserrat = Montserrat({
+  subsets:["latin"],
+  variable: "--montserrat"
+})
+
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`${heebo.variable} ${fraunces.variable}`}>
+			<body className={`${heebo.variable} ${fraunces.variable} ${montserrat.variable}`}>
 				<SideBar />
-				<div className="content-container">{children}</div>
+				<div>{children}</div>
 			</body>
 		</html>
 	);

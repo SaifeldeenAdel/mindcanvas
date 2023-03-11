@@ -4,15 +4,15 @@
 
 @layer components {
   .sidebar {
-    @apply font-sans flex flex-col h-screen fixed top-0 left-0 bg-white text-primary w-[12rem] m-0 shadow-xl p-2 
+    @apply flex-col h-screen fixed top-0 left-0 bg-white text-primary w-[12rem] m-0 shadow-xl p-2 pt-[8rem] hidden peer-hover:flex hover:flex transition-all duration-100 ease-in-out
   }
 
   .logo {
-    @apply mt-4 mb-8 ml-1 bg-slate-200 rounded-[2rem] w-16 h-16 justify-center items-center flex hover:cursor-pointer
+    @apply z-[9999] absolute top-2 left-2 mt-4 mb-8 ml-1 bg-slate-200 rounded-[2rem] w-16 h-16 justify-center items-center flex
   }
   
   .sidebar-item {
-    @apply flex items-center  mt-1 mb-1 bg-white rounded-lg py-2 hover:bg-slate-100 transition-all duration-500  hover:cursor-pointer
+    @apply flex items-center  mt-1 mb-1 bg-white rounded-lg py-2 hover:bg-slate-100 transition-all duration-300  hover:cursor-pointer
   }
   
   .sidebar-icon {
@@ -21,9 +21,11 @@
 
 
   .sidebar-content {
-    @apply text-[1rem] font-light font-sans
+    @apply text-[1rem] font-light font-montserrat
   }
+
   .content-container {
-    @apply ml-[12rem]
+    @apply flex justify-center mt-[8rem]
   }
+  
 }
