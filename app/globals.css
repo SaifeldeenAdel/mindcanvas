@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
+
 @layer components {
   .sidebar {
     @apply flex-col h-screen fixed top-0 left-0 bg-white text-primary w-[12rem] m-0 shadow-xl p-2 pt-[8rem] hidden peer-hover:flex hover:flex transition-all duration-100 ease-in-out
