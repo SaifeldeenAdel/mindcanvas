@@ -1,29 +1,43 @@
 import "./globals.css";
-import { Heebo, Fraunces, Montserrat } from "next/font/google";
+import { Fraunces, Montserrat, Heebo, Josefin_Sans, Nunito, Nunito_Sans} from "next/font/google";
+
 import SideBar from "./components/Sidebar/SideBar";
 
 const heebo = Heebo({
 	subsets: ["latin"],
-	weight: ["100", "200", "300", "500", "900"],
+  weight: ['variable'],
 	variable: "--heebo",
 });
 
 const fraunces = Fraunces({
   subsets: ["latin"],
-  weight: ['100', "300", "500", "700", "900"],
+  weight: ['variable'],
   variable: "--fraunces"
 })
 
 const montserrat = Montserrat({
   subsets:["latin"],
+  weight: ['variable'],
   variable: "--montserrat"
+})
+
+const josefin = Josefin_Sans({
+  subsets: ["latin"],
+  weight: ['variable'],
+  variable:"--josefin"
+})
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ['variable'],
+  variable:"--nunito"
 })
 
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`${heebo.variable} ${fraunces.variable} ${montserrat.variable}`}>
+			<body className={`${montserrat.variable} ${heebo.variable} ${fraunces.variable} ${josefin.variable} ${nunito.variable}`}>
 				<SideBar />
 				<div>{children}</div>
 			</body>

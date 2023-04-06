@@ -29,7 +29,20 @@
   }
 
   .content-container {
-    @apply flex justify-center mt-[8rem]
+    @apply flex justify-center mt-[8rem] flex-col items-center
+  }
+
+  .post-container {
+    @apply flex flex-col max-w-[60rem] mx-auto my-[8rem] px-4 
+    
+  }
+
+  .paragraph {
+    @apply font-light text-[1.1rem] sm:text-[1.3rem] text-justify mb-4
+  }
+
+  .header {
+    @apply text-left text-slate-800 mx-6 sm:mx-10
   }
   
 }

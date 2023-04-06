@@ -13,11 +13,17 @@ module.exports = {
       fontFamily: {
         sans: ["var(--heebo)"],
         serif: ["var(--fraunces)"],
-        "montserrat": ["var(--montserrat)"],
+        montserrat: ["var(--montserrat)"],
+        josefin: ["var(--josefin)"],
+        nunito: ["var(--nunito)"],
       },
       colors: {
         primary: '#001f2c',
         secondary: '#ebf9ff'
+      },
+      screens:{
+        'md': '500px',
+        'lg': '1400px',
       }
     },
 
