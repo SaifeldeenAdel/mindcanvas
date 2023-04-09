@@ -1,7 +1,3 @@
-export default function() {
-  return (
-    <div>
-      Enter
-    </div>
-  );
+export default function () {
+  return <div>Enter</div>;
 }
