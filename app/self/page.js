@@ -2,7 +2,7 @@ import Card from "../components/Card/Card";
 
 export default function () {
 	return (
-		<div className="content-container ">
+		<div className="mt-[8rem] flex flex-col items-center justify-center">
 			<h1 className="mb-2 px-4 text-center font-serif text-[1.2rem] font-medium italic leading-snug  sm:text-[1.6rem]">
 				"The happiness of your life depends upon the quality of your thoughts."
 			</h1>

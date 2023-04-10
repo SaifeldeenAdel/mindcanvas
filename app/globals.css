@@ -2,47 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  box-sizing: border-box;
-}
-
-@layer components {
-  .sidebar {
-    @apply flex-col h-screen fixed top-0 left-0 bg-white text-primary w-[12rem] m-0 shadow-xl p-2 pt-[8rem] hidden peer-hover:flex hover:flex transition-all duration-100 ease-in-out
-  }
-
-  .logo {
-    @apply z-[9999] absolute top-2 left-2 mt-4 mb-8 ml-1 bg-slate-200 rounded-[2rem] w-16 h-16 justify-center items-center flex
-  }
-  
-  .sidebar-item {
-    @apply flex items-center  mt-1 mb-1 bg-white rounded-lg py-2 hover:bg-slate-100 transition-all duration-300  hover:cursor-pointer
-  }
-  
-  .sidebar-icon {
-    @apply relative flex items-center justify-center mr-1 w-10
-  }
-
-
-  .sidebar-content {
-    @apply text-[1rem] font-light font-montserrat
-  }
-
-  .content-container {
-    @apply flex justify-center mt-[8rem] flex-col items-center
-  }
-
-  .post-container {
-    @apply flex flex-col max-w-[60rem] mx-auto my-[8rem] px-4 
-    
-  }
-
-  .paragraph {
-    @apply font-light text-[1.1rem] sm:text-[1.3rem] text-justify mb-4
-  }
-
-  .header {
-    @apply text-left text-slate-800 mx-6 sm:mx-10
-  }
-  
+* {
+	box-sizing: border-box;
 }
