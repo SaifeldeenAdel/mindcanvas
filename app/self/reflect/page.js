@@ -4,7 +4,7 @@ import { CiCalendar, CiTimer } from "react-icons/ci";
 export default function () {
 	return (
 		<article className="mx-auto my-[8rem] flex max-w-[60rem] flex-col px-4">
-			<header className="mx-6 text-left text-slate-800 sm:mx-10">
+			<header className="mx-6 text-left sm:mx-10">
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
 					<small className="font-montserrat text-[0.8rem] font-light sm:text-[1rem]">

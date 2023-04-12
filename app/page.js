@@ -4,10 +4,10 @@ import { TfiBookmarkAlt, TfiDesktop, TfiPalette, TfiThought } from "react-icons/
 export default function Home() {
 	return (
 		<div className="mx-auto mb-8 flex h-screen max-w-2xl flex-col items-center justify-center px-4 font-montserrat sm:px-0">
-			<h1 className="text-center text-[2.1rem] font-thin text-primary sm:text-[2.5rem] sm:font-thin">
+			<h1 className="text-center text-[2.1rem] font-bold text-primary sm:text-[2.5rem]">
 				the "Blog"
 			</h1>
-			<h2 className="mt-2 text-center text-[1rem] font-medium text-primary sm:text-[1rem]">
+			<h2 className="mt-2 text-center text-[1rem] font-light text-primary sm:text-[1rem]">
 				things I like to talk about.
 			</h2>
 			<br />

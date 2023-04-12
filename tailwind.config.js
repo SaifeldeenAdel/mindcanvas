@@ -18,7 +18,7 @@ module.exports = {
 				nunito: ["var(--nunito)"],
 			},
 			colors: {
-				primary: "#001f2c",
+				primary: "#043a52",
 				secondary: "#ebf9ff",
 			},
 			screens: {
