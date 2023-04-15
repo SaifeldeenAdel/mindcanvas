@@ -1,5 +1,9 @@
 import Link from "next/link";
-import { CiCalendar, CiTimer } from "react-icons/ci";
+import { CiCalendar } from "react-icons/ci";
+
+export const metadata = {
+	title: "How do you self reflect?",
+};
 
 export default function () {
 	return (

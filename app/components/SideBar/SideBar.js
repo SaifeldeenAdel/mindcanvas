@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { FaBookOpen } from "react-icons/fa";
 import {
 	TfiDesktop,
 	TfiPalette,

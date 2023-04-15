@@ -1,5 +1,9 @@
 import Card from "../components/Card/Card";
 
+export const metadata = {
+	title: "Self",
+};
+
 export default function () {
 	return (
 		<div className="mt-[8rem] flex flex-col items-center justify-center">

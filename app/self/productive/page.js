@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
 
+export const metadata = {
+	title: "Everyone wants to be productive.",
+};
+
 export default function () {
 	return (
 		<article className="mx-auto my-[8rem] flex max-w-[60rem] flex-col px-4">
