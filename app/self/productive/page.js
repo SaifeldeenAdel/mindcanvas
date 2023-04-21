@@ -24,7 +24,7 @@ export default function () {
 				src="/desk.jpg"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
-			<div className="mx-6 font-nunito sm:mx-10">
+			<div className="mx-4 font-nunito sm:mx-10">
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					Don't they? And if you don't, then you need to get yourself checked
 					out. There are probably millions of articles about productivity

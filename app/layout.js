@@ -40,6 +40,10 @@ const nunito = Nunito({
 	variable: "--nunito",
 });
 
+export const metadata = {
+	title: "• MindCanvas",
+};
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">

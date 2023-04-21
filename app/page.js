@@ -1,10 +1,6 @@
 import Link from "next/link";
 import { TfiBookmarkAlt, TfiDesktop, TfiPalette, TfiThought } from "react-icons/tfi";
 
-export const metadata = {
-	title: "MindCanvas",
-};
-
 export default function Home() {
 	return (
 		<div className="mx-auto mb-8 flex h-screen max-w-2xl flex-col items-center justify-center px-4 font-montserrat sm:px-0">

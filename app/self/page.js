@@ -1,18 +1,20 @@
 import Card from "../components/Card/Card";
-
 export const metadata = {
-	title: "Self",
+	title: "• Self",
 };
 
 export default function () {
 	return (
 		<div className="mt-[8rem] flex flex-col items-center justify-center">
-			<h1 className="mb-2 px-4 text-center font-serif text-[1.2rem] font-medium italic leading-snug  sm:text-[1.6rem]">
-				"The happiness of your life depends upon the quality of your thoughts."
-			</h1>
-			<h2 className="font-serif text-lg font-light">Marcus Aurelius</h2>
+			<header className="mb-10 flex flex-col items-center justify-center gap-3 px-2 font-serif sm:p-0">
+				<h1 className="text-center text-[1.2rem] font-medium italic leading-snug  sm:text-[1.6rem]">
+					"The happiness of your life depends upon the quality of your
+					thoughts."
+				</h1>
+				<h2 className="text-base font-light sm:text-lg">Marcus Aurelius</h2>
+			</header>
 
-			<div className="mx-8 mt-12 mb-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-2">
+			<div className="mx-6 mb-12 grid grid-cols-1 gap-8 sm:m-0 sm:grid-cols-2 md:mx-6 lg:grid-cols-2">
 				<Card
 					page="reflect"
 					title="How do you self reflect?"
@@ -22,10 +24,9 @@ export default function () {
 				<Card
 					page="productive"
 					title="Everyone wants to be productive"
-					date="13 March, 2023"
+					date="21 April, 2023"
 					img="desk"
 				/>
-				{/* <Card title="The Mind of Zdzisław Beksiński" date="19 March, 2023" img="beksinski"/> */}
 			</div>
 		</div>
 	);
