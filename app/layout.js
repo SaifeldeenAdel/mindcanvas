@@ -8,7 +8,7 @@ import {
 	Nunito_Sans,
 } from "next/font/google";
 
-import SideBar from "./components/Sidebar/SideBar";
+import SideBar from "./components/SideBar/SideBar";
 
 const heebo = Heebo({
 	subsets: ["latin"],
