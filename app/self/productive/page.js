@@ -20,6 +20,7 @@ export default function () {
 				</h1>
 			</header>
 			<img
+				alt="desk"
 				src="/desk.jpg"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>

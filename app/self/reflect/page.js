@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function () {
 	return (
-		<article className="mx-auto my-[8rem] flex max-w-[60rem] flex-col px-4">
-			<header className="mx-6 text-left sm:mx-10">
+		<article className="mx-auto my-[8rem] flex max-w-[60rem] flex-col px-4 ">
+			<header className="mx-4 text-left sm:mx-10">
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
 					<small className="font-montserrat text-[0.8rem] font-light sm:text-[1rem]">
@@ -20,10 +20,11 @@ export default function () {
 				</h1>
 			</header>
 			<img
+				alt="journal"
 				src="/reflect.jpg"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
-			<div className="mx-6 font-nunito sm:mx-10">
+			<div className="mx-4 font-nunito sm:mx-10">
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					First of all, what even is self-reflection and why do you need to do
 					it?

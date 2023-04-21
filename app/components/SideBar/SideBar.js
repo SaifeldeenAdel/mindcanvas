@@ -18,8 +18,8 @@ export default function SideBar() {
 				<SideBarItem icon={<TfiHome size="20" />} text="Home" />
 				<SideBarItem icon={<TfiThought size="20" />} text="Self" />
 				<SideBarItem icon={<TfiPalette size="20" />} text="Art" />
-				<SideBarItem icon={<TfiDesktop size="20" />} text="Tech" />
 				<SideBarItem icon={<TfiBookmarkAlt size="18" />} text="Books" />
+				<SideBarItem icon={<TfiDesktop size="20" />} text="Tech" />
 			</div>
 		</>
 	);
