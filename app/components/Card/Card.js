@@ -4,7 +4,7 @@ export default function Card({ page, title, date, img }) {
 	return (
 		<Link
 			href={`/self/${page}`}
-			className="flex aspect-[0.937] max-w-[25rem] items-end  text-white transition-all duration-300 hover:scale-[1.01] sm:aspect-[0.937] "
+			className="flex aspect-[2] max-w-[25rem]  items-end text-white transition-all duration-300 hover:scale-[1.01] sm:aspect-[0.937] "
 		>
 			<img
 				className="h-[100%] w-[100%] rounded-[1rem] object-cover brightness-[0.75] transition-all duration-[200ms] ease-linear  hover:brightness-[0.9]"

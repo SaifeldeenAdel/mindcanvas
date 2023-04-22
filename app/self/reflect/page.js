@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function () {
 	return (
-		<article className="mx-auto my-[8rem] flex max-w-[60rem] flex-col px-4 ">
+		<article className="mx-auto flex max-w-[60rem] flex-col px-4 pt-[7rem] pb-[5rem] ">
 			<header className="mx-4 text-left sm:mx-10">
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
