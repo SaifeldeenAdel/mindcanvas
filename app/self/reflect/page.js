@@ -11,11 +11,11 @@ export default function () {
 			<header className="mx-4 text-left sm:mx-10">
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
-					<small className="font-montserrat text-[0.8rem] font-light sm:text-[1rem]">
+					<small className="font-sans text-[0.8rem] font-light sm:text-[1rem]">
 						13 March, 2023
 					</small>
 				</div>
-				<h1 className="font-montserrat text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[3rem]">
+				<h1 className="font-sans text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[3rem]">
 					How do you self reflect?
 				</h1>
 			</header>
@@ -56,7 +56,7 @@ export default function () {
 				<br />
 				<br />
 
-				<h2 className="pb-4 font-montserrat text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					Alright how do you do it..
 				</h2>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -71,7 +71,7 @@ export default function () {
 				</p>
 				<br />
 
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					Journalling
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -84,7 +84,7 @@ export default function () {
 				</p>
 				<br />
 
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					Meditation / Going for a walk
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -105,7 +105,7 @@ export default function () {
 				<br />
 				<br />
 
-				<h2 className="pb-4 font-montserrat text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					Key Questions to ask yourself:
 				</h2>
 
@@ -134,7 +134,7 @@ export default function () {
 				</p>
 				<br />
 				<br />
-				<h2 className="pb-4 font-montserrat text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					Conclusion
 				</h2>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">

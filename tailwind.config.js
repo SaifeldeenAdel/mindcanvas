@@ -11,10 +11,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["var(--heebo)"],
+				sans: ["var(--montserrat)"],
 				serif: ["var(--fraunces)"],
-				montserrat: ["var(--montserrat)"],
-				josefin: ["var(--josefin)"],
 				nunito: ["var(--nunito)"],
 			},
 			colors: {

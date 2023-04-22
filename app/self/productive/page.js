@@ -11,11 +11,11 @@ export default function () {
 			<header className="mx-6 text-left sm:mx-10">
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
-					<small className="font-montserrat text-[0.8rem] font-light sm:text-[1rem]">
+					<small className="font-sans text-[0.8rem] font-light sm:text-[1rem]">
 						15 April, 2023
 					</small>
 				</div>
-				<h1 className="font-montserrat text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[2.8rem]">
+				<h1 className="font-sans text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[2.8rem]">
 					Everyone wants to be productive.
 				</h1>
 			</header>
@@ -47,7 +47,7 @@ export default function () {
 				</p>
 
 				<br />
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					1. Tasks and Deliverables
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -68,7 +68,7 @@ export default function () {
 				</p>
 
 				<br />
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					2. Eliminate Distractions.
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -90,7 +90,7 @@ export default function () {
 
 				<br />
 
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					3. Time Blocking
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
@@ -111,7 +111,7 @@ export default function () {
 
 				<br />
 
-				<h3 className="py-2 font-montserrat text-[1.1rem] font-semibold sm:text-[1.3rem]">
+				<h3 className="py-2 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
 					Conclusion
 				</h3>
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
