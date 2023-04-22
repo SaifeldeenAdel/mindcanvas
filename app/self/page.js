@@ -11,7 +11,9 @@ export default function () {
 					"The happiness of your life depends upon the quality of your
 					thoughts."
 				</h1>
-				<h2 className="text-base font-light sm:text-lg">Marcus Aurelius</h2>
+				<h2 className="w-[100%] text-base font-light sm:text-lg">
+					Marcus Aurelius
+				</h2>
 			</header>
 
 			<div className="mx-6 mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2">

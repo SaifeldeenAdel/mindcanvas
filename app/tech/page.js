@@ -12,7 +12,9 @@ export default function () {
 					"A reader lives a thousand lives before he dies. The man who never
 					reads lives only one"
 				</h1>
-				<h2 className="text-base font-light sm:text-lg">George R.R Martin</h2>
+				<h2 className="w-[100%] text-base font-light sm:text-lg">
+					George R.R Martin
+				</h2>
 			</header>
 
 			<div className="mx-8 mb-12 grid grid-cols-1 gap-8 sm:grid-cols-2"></div>
