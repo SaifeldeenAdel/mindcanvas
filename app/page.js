@@ -3,7 +3,7 @@ import { TfiBookmarkAlt, TfiDesktop, TfiPalette, TfiThought } from "react-icons/
 
 export default function Home() {
 	return (
-		<div className="mx-auto mb-8 flex h-screen max-w-2xl flex-col items-center justify-center px-4 font-sans sm:px-0">
+		<div className="mx-auto flex h-screen max-w-2xl flex-col justify-center px-4 font-sans sm:px-0">
 			<h1 className="text-center text-[2.1rem] font-bold text-primary sm:text-[2.5rem]">
 				MINDCANVAS
 			</h1>
