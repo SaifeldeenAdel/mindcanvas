@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Fraunces, Montserrat, Nunito } from "next/font/google";
 
-import SideBar from "./components/Sidebar/SideBar";
+import SideBar from "./components/SideBar/SideBar";
 
 const fraunces = Fraunces({
 	subsets: ["latin"],
