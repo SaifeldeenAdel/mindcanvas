@@ -1,38 +1,115 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-## Getting Started
+<a name="readme-top"></a>
 
-First, run the development server:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://mindcanvas.vercel.app">
+    <img src="app/favicon.ico" alt="Logo" width="40" height="40">
+  </a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  <h2 align="center"><b>MINDCANVAS</b></h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <p align="center">
+    A place for things I like to talk about
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://mindcanvas.vercel.app">View Demo</a>
+    ·
+    <a href="https://github.com/SaifeldeenAdel/mindcanvas/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/SaifeldeenAdel/mindcanvas/issues">Request Feature</a>
+  </p>
+</div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<!-- ABOUT THE PROJECT -->
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## About The Project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[![Product Name Screen Shot][product-screenshot]](https://mindcanvas.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Website I made for writing and posting articles about topics that interest me, books reviews, etc. I've always wanted a place to post this stuff and so I took this opportunity to improve my UI design skills and get used to Nextjs as this is my first project using it.
 
-## Learn More
+### Content
 
-To learn more about Next.js, take a look at the following resources:
+The website has 4 main pages after the landing page:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Self - for articles about productivity, mindset, etc.
+2. Art - articles about favorite artists, art pieces, etc
+3. Books - book shelf and reviews
+4. Tech - articles about tech I'm starting to learn, new frameworks, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br/>
 
-## Deploy on Vercel
+### Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   [![Next][Next.js]][Next-url]
+-   [![React][React.js]][React-url]
+-   [![TailwindCSS][Tailwind]](https://tailwindcss.com)
+-   [![Vercel][Vercel]](https://vercel.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Run locally
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This project uses npm
+
+-   npm
+    ```sh
+    npm install npm@latest -g
+    ```
+
+### Installation
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/SaifeldeenAdel/mindcanvas.git
+    ```
+2. Install NPM packages
+    ```sh
+    npm install
+    ```
+3. Run the app in dev mode
+    ```sh
+    npm run dev
+    ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<br />
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+Resources I found helpful while building mindcanvas.
+
+-   [Next.js 13 Docs](https://beta.nextjs.org/docs)
+-   [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Tailwind]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[product-screenshot]: public/screenshot.png
