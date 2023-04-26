@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Card({ page, title, date, img }) {
+export default function Card({ section, page, title, date, img }) {
 	return (
 		<Link
-			href={`/self/${page}`}
+			href={`/${section}/${page}`}
 			className="flex aspect-[2] max-w-[25rem]  items-end text-white transition-all duration-300 hover:scale-[1.01] sm:aspect-[0.937] "
 		>
 			<img

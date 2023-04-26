@@ -16,6 +16,8 @@ export default function () {
 
 			<div className="mx-6 mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
 				<Card
+					section="art"
+					page="beksinski"
 					title="Who is Zdzisław Beksiński?"
 					date="19 March, 2023"
 					img="beksinski"

@@ -18,12 +18,14 @@ export default function () {
 
 			<div className="mx-6 mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
 				<Card
+					section="self"
 					page="reflect"
 					title="How do you self reflect?"
 					date="15 March, 2023"
 					img="reflect"
 				/>
 				<Card
+					section="self"
 					page="productive"
 					title="Everyone wants to be productive"
 					date="21 April, 2023"
