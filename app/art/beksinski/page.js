@@ -72,23 +72,81 @@ export default function () {
 				</h2>
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Creepy, surreal,
+					Creepy, disturbing, surreal, ominous are all adjectives that could be
+					used to describe Beksiński's art but no adjective actually does it
+					justice. "I wish to paint in such a manner as if I were photographing
+					dreams" is the way he likes to put it. I would not want to have dreams
+					that look like this.
 				</p>
+				<br />
 
 				<br />
+
+				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/person.jpg`}
+					/>
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/monsters.jpg`}
+					/>
+
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/graves.jpg`}
+					/>
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/bones.jpg`}
+					/>
+				</div>
+
+				<br />
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					Artworks depicting bones, skeletons, and bodies are sometimes
+					attributed to his life having survived and witnessed the tragedies of
+					World War 2 however he himself claimed that even he did not know the
+					meaning of his artworks and was uninterested in possible
+					interpretations. Which brings us to another interesting point.
+				</p>
 				<br />
 
 				<h3 className="pb-4 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
-					None of his paintings are titled. Why?
+					None of his paintings are titled.
 				</h3>
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Create a todo list. Yes, it's that simple sometimes. You won't believe
-					it until you try it. Creating a list forces you to organize whatever
-					you need to get done into concise, deliverable tasks. Then it forces
-					you to work on these tasks one by one instead of multitasking and
-					eventually being overwhelmed and never completely done with any of
-					them.
+					Beksiński believed that his art should be looked at, not explained. To
+					the extent that he saw no point in providing a title for any piece he
+					paints. "Interpretation is imposed by others. Paintings are to be
+					admired or contemplated. Admired without asking what it means. If I
+					had something to say I would write it down or say it. I don't need
+					painting for that".
+				</p>
+				<br />
+
+				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/soldier.jpg`}
+					/>
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						src={`/beksinski.jpg`}
+					/>
+				</div>
+
+				<br />
+
+				<h3 className="pb-4 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
+					Earthy Tones
+				</h3>
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					As you might've noticed his art relies on dark, usually earthy tones
+					that blend together nicely.
 				</p>
 				<br />
 
