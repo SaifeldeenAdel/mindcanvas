@@ -235,7 +235,7 @@ export default function () {
 				<br />
 
 				<Link
-					href="../self"
+					href="../art"
 					className="text-[1rem] font-semibold sm:text-[1.2rem]"
 				>
 					{"-"} Go back
