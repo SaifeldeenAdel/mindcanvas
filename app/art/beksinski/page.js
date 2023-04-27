@@ -12,7 +12,7 @@ export default function () {
 				<div className="flex">
 					<CiCalendar size="20" className="mr-2" />
 					<small className="font-sans text-[0.8rem] font-light sm:text-[1rem]">
-						28 April, 2023
+						27 April, 2023
 					</small>
 				</div>
 				<h1 className="font-sans text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[2.8rem]">
@@ -78,26 +78,25 @@ export default function () {
 					dreams" is the way he likes to put it. I would not want to have dreams
 					that look like this.
 				</p>
-				<br />
 
 				<br />
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/person.jpg`}
 					/>
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/monsters.jpg`}
 					/>
 
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/graves.jpg`}
 					/>
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/bones.jpg`}
 					/>
 				</div>
@@ -120,34 +119,119 @@ export default function () {
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					Beksiński believed that his art should be looked at, not explained. To
 					the extent that he saw no point in providing a title for any piece he
-					paints. "Interpretation is imposed by others. Paintings are to be
-					admired or contemplated. Admired without asking what it means. If I
-					had something to say I would write it down or say it. I don't need
-					painting for that".
+					paints.
 				</p>
+				<br />
+
+				<p className="px-8 text-justify text-[1rem] font-medium sm:text-[1.2rem]">
+					"Interpretation is imposed by others. Paintings are to be admired or
+					contemplated. Admired without asking what it means. If I had something
+					to say I would write it down or say it. I don't need painting for
+					that"
+				</p>
+
+				<br />
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					And for someone like me who struggles with describing and explaining
+					why I like certain art when I look at it, I can't help but appreciate
+					his views regarding this matter. Art is to be viewed and felt, it
+					doesn't always have to involve symbolism, deeper meanings, etc.
+				</p>
+
 				<br />
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/soldier.jpg`}
 					/>
 					<img
-						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={`/beksinski.jpg`}
 					/>
 				</div>
 
 				<br />
 
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					But in an effort to impose my own interpretation, I will say this;
+					Beksiński's art is raw. It was not sugar coated for what people wanted
+					to see at the time. It is what he wanted to paint and it is
+					beautifully dark and twisted.
+				</p>
+
+				<br />
+
 				<h3 className="pb-4 font-sans text-[1.1rem] font-semibold sm:text-[1.3rem]">
-					Earthy Tones
+					Color
 				</h3>
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					As you might've noticed his art relies on dark, usually earthy tones
-					that blend together nicely.
+					As you may have noticed, his use of vibrant color is pretty much non
+					existent and he enjoys his toned down earthy colors.
 				</p>
+
+				<br />
+
+				<p className="px-8 text-justify text-[1rem] font-medium sm:text-[1.2rem]">
+					"Less intense earthy semitones result in greater number of colours
+					because each of those dirty colors contains a whole range of other
+					pure colors mixed together. So I feel that a painting is richier when
+					the color is presented not so intrusive nor obvious way."
+				</p>
+				<br />
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					Learning more about why artists used certain palettes is super
+					interesting. Makes me realize certain things that I never would've
+					noticed before and Beksiński's is a great example of that. A piece you
+					might think is dull at first glance turns into this rich, detailed
+					masterpiece the more you look at it.
+				</p>
+
+				<br />
+
+				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
+						src={`/pillars.jpg`}
+					/>
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
+						src={`/fuse.jpg`}
+					/>
+
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
+						src={`/face.jpg`}
+					/>
+					<img
+						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
+						src={`/bones2.jpg`}
+					/>
+				</div>
+
+				<br />
+				<br />
+
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
+					Conclusion
+				</h2>
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					Excited to find out more about all of the other unique surrealism
+					artists out there but Zdzisław Beksiński was definitely one of the
+					best ones to get introduced to. You can check out more of this work{" "}
+					<Link
+						href="https://www.artnet.com/artists/zdzislaw-beksinski/?type=paintings"
+						target="_blank"
+						className="font-semibold"
+					>
+						here
+					</Link>
+					.
+				</p>
+				<br />
 				<br />
 
 				<Link

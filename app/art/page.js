@@ -19,8 +19,8 @@ export default function () {
 					section="art"
 					page="beksinski"
 					title="Who is Zdzisław Beksiński?"
-					date="19 March, 2023"
-					img="beksinski"
+					date="27 April, 2023"
+					img="person"
 				/>
 				<Card
 					title="The Gift of Claude Monet"
