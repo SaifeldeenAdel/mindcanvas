@@ -48,9 +48,9 @@ export default function SideBar() {
 				ref={sidebarRef}
 				className={`${
 					visible ? "flex" : "hidden"
-				} fixed top-0 left-0 z-20 m-0 h-screen w-[12rem] flex-col justify-between bg-white px-2 pt-[8rem] font-sans text-primary shadow-xl`}
+				} fixed top-0 left-0 z-20 m-0 h-screen w-[12rem] flex-col justify-between bg-white pt-[8rem] font-sans text-primary shadow-xl`}
 			>
-				<div>
+				<div className="px-2">
 					<SideBarItem
 						icon={<TfiHome size="20" />}
 						text="Home"
@@ -79,16 +79,18 @@ export default function SideBar() {
 				</div>
 				<Link
 					href="https://saifdev.vercel.app"
-					className="flex flex-col pb-4 pl-2"
+					className="flex flex-col pb-14"
 				>
-					<hr />
-					<div className="mt-4 flex flex-row items-center gap-3">
+					<hr className=""/>
+					<div className="flex flex-row items-center gap-3 hover:bg-slate-100 duration-200 py-2 px-2">
 						<img src="/saif.png" alt="Creator" className="h-9 rounded-full" />
 						<div className="flex flex-col ">
 							<span className="text-sm">Created By</span>
 							<span className="font-bold">Saif</span>
 						</div>
 					</div>
+					<hr className=""/>
+
 				</Link>
 			</div>
 		</>
