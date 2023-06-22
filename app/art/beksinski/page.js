@@ -1,5 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
+import graves from "../../../public/graves.jpg";
+import portrait from "../../../public/portrait.jpeg";
+import portrait2 from "../../../public/portrait2.jpg";
+import monsters from "../../../public/monsters.jpg";
+import bones from "../../../public/bones.jpg";
+import soldier from "../../../public/soldier.jpg";
+import person from "../../../public/person.jpg";
+import beksinski from "../../../public/beksinski.jpg";
+import pillars from "../../../public/pillars.jpg";
+import fuse from "../../../public/fuse.jpg";
+import face from "../../../public/face.jpg";
+import bones2 from "../../../public/bones2.jpg";
 
 export const metadata = {
 	title: "• Who is Zdzisław Beksiński?",
@@ -19,9 +32,10 @@ export default function () {
 					Who is Zdzisław Beksiński?
 				</h1>
 			</header>
-			<img
-				alt="Zdzisław Beksiński"
-				src="/graves.jpg"
+			<Image
+				alt="Graves"
+				src={graves}
+        placeholder="blur"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
 			<div className="mx-4 font-nunito sm:mx-10">
@@ -54,13 +68,15 @@ export default function () {
 				<br />
 
 				<div className="flex flex-row justify-center gap-3 md:gap-8">
-					<img
+					<Image
 						className="w-[60%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
-						src={`/portrait.jpeg`}
+						src={portrait}
+						placeholder="blur"
 					/>
-					<img
+					<Image
 						className="w-[40%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
-						src={`/portrait2.jpg`}
+						src={portrait2}
+						placeholder="blur"
 					/>
 				</div>
 				<br />
@@ -82,22 +98,29 @@ export default function () {
 				<br />
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/person.jpg`}
+						src={person}
+            placeholder="blur"
 					/>
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/monsters.jpg`}
+						src={monsters}
+            placeholder="blur"
+
 					/>
 
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/graves.jpg`}
+						src={graves}
+            placeholder="blur"
+
 					/>
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/bones.jpg`}
+						src={bones}
+            placeholder="blur"
+
 					/>
 				</div>
 
@@ -141,13 +164,16 @@ export default function () {
 				<br />
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/soldier.jpg`}
+						src={soldier}
+            placeholder="blur"
+
 					/>
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/beksinski.jpg`}
+						src={beksinski}
+            placeholder="blur"
 					/>
 				</div>
 
@@ -176,8 +202,8 @@ export default function () {
 				<p className="px-8 text-justify text-[1rem] font-medium sm:text-[1.2rem]">
 					"Less intense earthy semitones result in greater number of colours
 					because each of those dirty colors contains a whole range of other
-					pure colors mixed together. So I feel that a painting is richier when
-					the color is presented not so intrusive nor obvious way."
+					pure colors mixed together. So I feel that a painting is richer when
+					the color is presented in a not so intrusive nor obvious way."
 				</p>
 				<br />
 
@@ -192,22 +218,28 @@ export default function () {
 				<br />
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/pillars.jpg`}
+						src={pillars}
+            placeholder="blur"
+
 					/>
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/fuse.jpg`}
+						src={fuse}
+            placeholder="blur"
 					/>
 
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/face.jpg`}
+						src={face}
+            placeholder="blur"
 					/>
-					<img
+					<Image
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
-						src={`/bones2.jpg`}
+						src={bones2}
+            placeholder="blur"
+
 					/>
 				</div>
 

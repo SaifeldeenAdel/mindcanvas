@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
+import reflect from "../../../public/reflect.jpg";
 
 export const metadata = {
 	title: "• How do you self reflect?",
@@ -19,9 +21,10 @@ export default function () {
 					How do you self reflect?
 				</h1>
 			</header>
-			<img
+			<Image
 				alt="journal"
-				src="/reflect.jpg"
+				src={reflect}
+        placeholder="blur"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
 			<div className="mx-4 font-nunito sm:mx-10">

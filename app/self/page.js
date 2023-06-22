@@ -1,4 +1,8 @@
+
 import Card from "../components/Card/Card";
+import reflect from "../../public/reflect.jpg";
+import desk from "../../public/desk.jpg";
+
 export const metadata = {
 	title: "• Self",
 };
@@ -22,14 +26,14 @@ export default function () {
 					page="reflect"
 					title="How do you self reflect?"
 					date="15 March, 2023"
-					img="reflect"
+					img={reflect}
 				/>
 				<Card
 					section="self"
 					page="productive"
 					title="Everyone wants to be productive"
 					date="21 April, 2023"
-					img="desk"
+					img={desk}
 				/>
 			</div>
 		</div>

@@ -1,5 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
+import desk from "../../../public/desk.jpg";
+
 
 export const metadata = {
 	title: "• Everyone wants to be productive.",
@@ -19,9 +22,10 @@ export default function () {
 					Everyone wants to be productive.
 				</h1>
 			</header>
-			<img
+			<Image
 				alt="desk"
-				src="/desk.jpg"
+				src={desk}
+        placeholder="blur"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
 			<div className="mx-4 font-nunito sm:mx-10">

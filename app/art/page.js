@@ -1,4 +1,6 @@
 import Card from "../components/Card/Card";
+import person from "../../public/person.jpg"
+import monet from "../../public/monet.jpg"
 
 export const metadata = {
 	title: "• Art",
@@ -20,12 +22,12 @@ export default function () {
 					page="beksinski"
 					title="Who is Zdzisław Beksiński?"
 					date="27 April, 2023"
-					img="person"
+					img={person}
 				/>
 				<Card
 					title="The Gift of Claude Monet"
 					date="19 March, 2023"
-					img="monet"
+					img={monet}
 				/>
 			</div>
 		</div>
