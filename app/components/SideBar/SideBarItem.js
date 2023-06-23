@@ -10,7 +10,7 @@ export default function SideBarItem({ icon, text, handleVisible }) {
 	return (
 		<Link
 			onClick={handleVisible}
-			href={`/${lower}`}
+			href={`/${lower}`} 
 			className={`mt-1 mb-1  flex items-center rounded-lg py-2 transition-all duration-200 hover:cursor-pointer  hover:bg-slate-100 ${
 				path == `/${lower}` ? "bg-slate-100" : "bg-white"
 			}`}
