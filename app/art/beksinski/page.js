@@ -69,11 +69,13 @@ export default function () {
 
 				<div className="flex flex-row justify-center gap-3 md:gap-8">
 					<Image
+            alt="portrait"
 						className="w-[60%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
 						src={portrait}
 						placeholder="blur"
 					/>
 					<Image
+            alt="portrait2"
 						className="w-[40%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
 						src={portrait2}
 						placeholder="blur"
@@ -99,11 +101,13 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
+            alt="person"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={person}
             placeholder="blur"
 					/>
 					<Image
+            alt="monsters"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={monsters}
             placeholder="blur"
@@ -111,12 +115,14 @@ export default function () {
 					/>
 
 					<Image
+            alt="graves"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={graves}
             placeholder="blur"
 
 					/>
 					<Image
+            alt="bones"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={bones}
             placeholder="blur"
@@ -165,12 +171,14 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
+            alt="soldier"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={soldier}
             placeholder="blur"
 
 					/>
 					<Image
+            alt="beksinski"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={beksinski}
             placeholder="blur"
@@ -219,23 +227,27 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
+            alt="pillars"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={pillars}
             placeholder="blur"
 
 					/>
 					<Image
+            alt="fuse"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={fuse}
             placeholder="blur"
 					/>
 
 					<Image
+            alt="face"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={face}
             placeholder="blur"
 					/>
 					<Image
+            alt="bones2"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={bones2}
             placeholder="blur"

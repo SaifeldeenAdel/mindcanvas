@@ -35,7 +35,7 @@ export default function Modal({ handleClose, text }) {
 				animate="visible"
 				exit="exit"
 			>
-				<Image src={darkmatter} className="max-w-[10rem] max-h-[15rem] rounded-lg sm:m-0 m-auto" />
+				<Image alt="book-cover" src={darkmatter} className="max-w-[10rem] max-h-[15rem] rounded-lg sm:m-0 m-auto" />
 				<div className="flex flex-col">
 					<h2 className="text-[2rem] font-bold">Dark Matter </h2>
 					<span className="mt-[-0.5rem] text-[1rem] font-light">
