@@ -1,4 +1,9 @@
+"use client";
+import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
+
 import Book from "../components/Book/Book";
+import Modal from "../components/Modal/Modal";
 
 import darkmatter from "../../public/darkmatter.jpg";
 import project from "../../public/project.jpg";
@@ -17,6 +22,17 @@ export const metadata = {
 };
 
 export default function ({ children }) {
+	const [modalOpen, setModalOpen] = useState(false);
+
+	const close = () => {
+		console.log(modalOpen);
+		setModalOpen(false);
+	};
+	const open = () => {
+		console.log(modalOpen);
+		setModalOpen(true);
+	};
+
 	return (
 		<div className="flex flex-col items-center justify-center pt-[7rem]">
 			<header className="mx-4 mb-5 flex flex-col items-center justify-center gap-3 text-center font-serif sm:mx-0">
@@ -35,7 +51,11 @@ export default function ({ children }) {
 				<hr className="mb-4 w-[100%]" />
 
 				<div className="mb-10 grid grid-cols-3 gap-4 md:grid-cols-5">
-					<Book rating={5} img={darkmatter} />
+					<Book
+						rating={5}
+						img={darkmatter}
+						handleClick={modalOpen ? close : open}
+					/>
 					<Book rating={3} img={project} />
 					<Book rating={4} img={goneworld} />
 					<Book rating={1} img={rage} />
@@ -57,6 +77,11 @@ export default function ({ children }) {
 					<Book img={meditations} />
 				</div>
 			</div>
+			<AnimatePresence initial={false}>
+				{modalOpen && (
+					<Modal key="modal" modalOpen={modalOpen} handleClose={close} className="overflow-hidden"/>
+				)}
+			</AnimatePresence>
 		</div>
 	);
 }
