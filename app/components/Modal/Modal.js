@@ -29,7 +29,7 @@ export default function Modal({ handleClose, book }) {
 	return (
 		<Backdrop onClick={handleClose}>
 			<motion.div
-				className="relative mx-5 flex max-h-[60vh] min-h-[30vh] max-w-[50rem] flex-col gap-5 overflow-y-auto rounded-lg bg-slate-50 p-6 font-sans opacity-100 sm:flex-row "
+				className="relative mx-5 flex max-h-[75vh] sm:max-h-[60vh] min-h-[30vh] max-w-[50rem] flex-col gap-5 overflow-y-auto rounded-lg bg-slate-50 p-6 font-sans opacity-100 sm:flex-row "
 				onClick={(e) => e.stopPropagation()}
 				variants={dropIn}
 				initial="hidden"

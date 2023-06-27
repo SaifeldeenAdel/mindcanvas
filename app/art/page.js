@@ -1,6 +1,6 @@
 import Card from "../components/Card/Card";
 import person from "../../public/person.jpg"
-import monet from "../../public/monet.jpg"
+import voyage from "../../public/voyage.jpg"
 
 export const metadata = {
 	title: "• Art",
@@ -25,9 +25,11 @@ export default function () {
 					img={person}
 				/>
 				<Card
-					title="The Gift of Claude Monet"
-					date="19 March, 2023"
-					img={monet}
+          section="art"
+					title="The Voyage of Life"
+					page="voyage"
+					date="20 June, 2023"
+					img={voyage}
 				/>
 			</div>
 		</div>
