@@ -1,5 +1,5 @@
 import Card from "../components/Card/Card";
-import person from "../../public/person.jpg"
+import monsters from "../../public/monsters.jpg"
 import voyage from "../../public/voyage.jpg"
 
 export const metadata = {
@@ -22,7 +22,7 @@ export default function () {
 					page="beksinski"
 					title="Who is Zdzisław Beksiński?"
 					date="27 April, 2023"
-					img={person}
+					img={monsters}
 				/>
 				<Card
           section="art"

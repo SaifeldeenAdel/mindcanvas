@@ -6,13 +6,13 @@ export default function Card({ section, page, title, date, img }) {
 	return (
 		<Link
 			href={`/${section}/${page}`}
-			className="flex aspect-[2] max-w-[25rem]  items-end text-white transition-all duration-200 hover:scale-[1.01] sm:aspect-[0.937] "
+			className="flex aspect-[1.5] max-w-[25rem]  items-end text-white transition-all duration-200 hover:scale-[1.01] sm:aspect-[0.937] "
 		>
 			<Image
-        alt="card-cover"
+				alt="card-cover"
 				className="h-[100%] w-[100%] rounded-[1rem] object-cover brightness-[0.75] transition-all duration-200 ease-linear  hover:brightness-[0.9]"
 				src={img}
-        placeholder="blur"
+				placeholder="blur"
 			/>
 			<div className="absolute flex max-w-[25rem] flex-col px-6 pb-6 font-sans sm:px-10 sm:pb-8">
 				<div className=" mb-2 text-sm font-light">{date}</div>
