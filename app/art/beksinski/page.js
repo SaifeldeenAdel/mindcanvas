@@ -1,18 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
-import graves from "../../../public/graves.jpg";
-import portrait from "../../../public/portrait.jpeg";
-import portrait2 from "../../../public/portrait2.jpg";
-import monsters from "../../../public/monsters.jpg";
-import bones from "../../../public/bones.jpg";
-import soldier from "../../../public/soldier.jpg";
-import person from "../../../public/person.jpg";
-import beksinski from "../../../public/beksinski.jpg";
-import pillars from "../../../public/pillars.jpg";
-import fuse from "../../../public/fuse.jpg";
-import face from "../../../public/face.jpg";
-import bones2 from "../../../public/bones2.jpg";
+import {
+	graves,
+	portrait,
+	portrait2,
+	monsters,
+	bones,
+	soldier,
+	person,
+	beksinski,
+	pillars,
+	fuse,
+	face,
+	bones2,
+} from "../../utils/imgImports";
 
 export const metadata = {
 	title: "• Who is Zdzisław Beksiński?",
@@ -35,7 +37,7 @@ export default function () {
 			<Image
 				alt="Graves"
 				src={graves}
-        placeholder="blur"
+				placeholder="blur"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
 			<div className="mx-4 font-nunito sm:mx-10">
@@ -69,13 +71,13 @@ export default function () {
 
 				<div className="flex flex-row justify-center gap-3 md:gap-8">
 					<Image
-            alt="portrait"
+						alt="portrait"
 						className="w-[60%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
 						src={portrait}
 						placeholder="blur"
 					/>
 					<Image
-            alt="portrait2"
+						alt="portrait2"
 						className="w-[40%] rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear "
 						src={portrait2}
 						placeholder="blur"
@@ -101,32 +103,29 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
-            alt="person"
+						alt="person"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={person}
-            placeholder="blur"
+						placeholder="blur"
 					/>
 					<Image
-            alt="monsters"
+						alt="monsters"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={monsters}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 
 					<Image
-            alt="graves"
+						alt="graves"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={graves}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 					<Image
-            alt="bones"
+						alt="bones"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={bones}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 				</div>
 
@@ -171,17 +170,16 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
-            alt="soldier"
+						alt="soldier"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={soldier}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 					<Image
-            alt="beksinski"
+						alt="beksinski"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={beksinski}
-            placeholder="blur"
+						placeholder="blur"
 					/>
 				</div>
 
@@ -227,31 +225,29 @@ export default function () {
 
 				<div className="grid grid-cols-1 justify-center gap-3 md:grid-cols-2 md:gap-6">
 					<Image
-            alt="pillars"
+						alt="pillars"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={pillars}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 					<Image
-            alt="fuse"
+						alt="fuse"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={fuse}
-            placeholder="blur"
+						placeholder="blur"
 					/>
 
 					<Image
-            alt="face"
+						alt="face"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={face}
-            placeholder="blur"
+						placeholder="blur"
 					/>
 					<Image
-            alt="bones2"
+						alt="bones2"
 						className="rounded-[1rem] object-cover transition-all duration-[200ms] ease-linear hover:scale-[1.02] "
 						src={bones2}
-            placeholder="blur"
-
+						placeholder="blur"
 					/>
 				</div>
 

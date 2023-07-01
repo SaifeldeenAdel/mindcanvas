@@ -1,10 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
-import manhood from "../../../public/manhood.jpg";
-import youth from "../../../public/youth.jpg";
-import childhood from "../../../public/childhood.jpg";
-import oldage from "../../../public/oldage.jpg";
+import { manhood, youth, childhood, oldage } from "../../utils/imgImports";
 
 export const metadata = {
 	title: "• The Voyage of Life",
@@ -135,17 +132,26 @@ export default function () {
 				<br />
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Coming to my favourite one, Manhood. There is so much going on in this one. The angel is now up above in the skies, no longer nearby, just observing over the voyager. The river is full of rocks and waves crashing creating an extremely difficult  pathway depicting the challenges and stresses of going through Manhood. 
+					Coming to my favourite one, Manhood. There is so much going on in this
+					one. The angel is now up above in the skies, no longer nearby, just
+					observing over the voyager. The river is full of rocks and waves
+					crashing creating an extremely difficult pathway depicting the
+					challenges and stresses of going through Manhood.
 				</p>
 				<br />
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					The voyager's expression now is not one of ambition, but of pleading. Seems he has turned to prayer, feeling helpless in front of what lies ahead as he has no other option but to go through the rough waves. However we can see there's calm water again up ahead alluding to life returning to its calm state when going out of manhood and into old age.
+					The voyager's expression now is not one of ambition, but of pleading.
+					Seems he has turned to prayer, feeling helpless in front of what lies
+					ahead as he has no other option but to go through the rough waves.
+					However we can see there's calm water again up ahead alluding to life
+					returning to its calm state when going out of manhood and into old
+					age.
 				</p>
 				<br />
 				<br />
 
-        <h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					4. Old Age
 				</h2>
 
@@ -159,23 +165,32 @@ export default function () {
 				<br />
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					End of the road. Calm waters, the angel goes back to the voyager's side. The voyager almost ready to be taken away now. There's not much going on in this one and its fitting. Observe the boat's condition. Completely worn out, broken down probably by the rocky terrain he went into in manhood. 
-        </p>
+					End of the road. Calm waters, the angel goes back to the voyager's
+					side. The voyager almost ready to be taken away now. There's not much
+					going on in this one and its fitting. Observe the boat's condition.
+					Completely worn out, broken down probably by the rocky terrain he went
+					into in manhood.
+				</p>
 				<br />
 				<br />
 
-        <h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					Conclusion
 				</h2>
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Such a cool concept and it's one of the first painting series I've seen. The details, the colors, the story, so good. I didn't know about Thomas Cole until I stumbled upon The Voyage of Life but after checking out his work, I discovered that he's got more painting series so I'm excited to dive into them as well.
-        </p>
+					Such a cool concept and it's one of the first painting series I've
+					seen. The details, the colors, the story, so good. I didn't know about
+					Thomas Cole until I stumbled upon The Voyage of Life but after
+					checking out his work, I discovered that he's got more painting series
+					so I'm excited to dive into them as well.
+				</p>
 				<br />
 
-        <p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Didn't mention this but fun fact, each painting above is based on one of the four seasons. Can you guess which one's which?
-        </p>
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					Didn't mention this but fun fact, each painting above is based on one
+					of the four seasons. Can you guess which one's which?
+				</p>
 				<br />
 				<br />
 
