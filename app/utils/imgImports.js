@@ -31,8 +31,19 @@ import manhood from "../../public/manhood.jpg";
 import youth from "../../public/youth.jpg";
 import childhood from "../../public/childhood.jpg";
 import oldage from "../../public/oldage.jpg";
+import voyage from "../../public/voyage.jpg";
 
-export { manhood, youth, childhood, oldage };
+export { manhood, youth, childhood, oldage, voyage };
+
+import waves from "../../public/waves.jpg";
+import antibes from "../../public/antibes.jpg";
+import waves2 from "../../public/waves2.jpg";
+import cliff from "../../public/cliff.jpg";
+import sunset from "../../public/sunset.jpg";
+import harbour from "../../public/harbour.jpg";
+import ship from "../../public/ship.jpg";
+
+export { waves, antibes, cliff, waves2, harbour, ship, sunset };
 
 // BOOKS
 import darkmatter from "../../public/darkmatter.jpg";
