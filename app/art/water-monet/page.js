@@ -12,7 +12,7 @@ import {
 	ship,
 	harbour,
 	waves2,
-  cliff
+	cliff,
 } from "../../utils/imgImports";
 
 export const metadata = {
@@ -66,12 +66,44 @@ export default function () {
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					Recently, I was going through Monet's pieces and the ones that kept
 					catching my eye were ones that involved bodies of water, his
-					seascapes. They are calm, vibrant, and extremely intricate. It is genuinely fascinating how he makes colors work together in this way. I also quite enjoy the visible brush strokes on some of these, they create some sort of texture that works really well with water.
+					seascapes. They are calm, vibrant, and extremely intricate. It is
+					genuinely fascinating how he makes colors work together in this way. I
+					also quite enjoy the visible brush strokes on some of these, they
+					create some sort of texture that works really well with water.
 				</p>
 				<br />
 
-        <p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Monet was one of the first artists in the impressionist movement. Impressionism, in short, being the art form that involves capturing colorful moments, usually outdoors, with no specific subject in mind. Water is perfect for that. Take something that is always in motion and paint what it looks like in a single moment, deciding on reflections and shades that are infinitely unique. 
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					These textures were usually created by him allowing the paint to dry
+					then superimposing more layers and brushstrokes creating a rough
+					texture that usually depicted waves, rocks, etc. And other times where
+					he didn't even wait and painted over wet paint which I assume is what
+					created some of his seamless blends between the blues of the water and
+					the oranges and reds of the sunlight.
+				</p>
+				<br />
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					Monet was one of the first artists in the impressionist movement.
+					Impressionism, in short, being the art form that involves capturing
+					colorful moments, usually outdoors, with no specific subject in mind.
+					Water is perfect for that. Take something that is always in motion and
+					paint what it looks like in a single moment, deciding on reflections
+					and shades that are infinitely unique.
+				</p>
+				<br />
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					I collected some of my favorites below but you can check out a lot
+					more{" "}
+					<Link
+						href="https://commons.wikimedia.org/wiki/Category:Seascapes_by_Claude_Monet"
+						target="_blank"
+						className="font-semibold"
+					>
+						here.
+					</Link>{" "}
+					It is insane how many he's done and they're all so good.
 				</p>
 				<br />
 				<br />
@@ -124,18 +156,21 @@ export default function () {
 					/>
 				</div>
 				<br />
-        <br />
+				<br />
 
-        <h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
+				<h2 className="pb-4 font-sans text-[1.2rem] font-semibold sm:text-[1.5rem]">
 					Conclusion
 				</h2>
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
-					Starting off with Childhood, we get the first sight of the voyager and
-					the angel together on the boat. The cave depicting birth with the
-					angel being the one in control of the boat given the helplessness of a
-					child after birth. The water is still with a peaceful sunset over the
-					horizon, all relating to the innocence of childhood.
+					I chose Monet's water work because it is something I personally liked.
+					I admire the rest of his work however this is the subset I found
+					myself actually going back to look at again. 
+				</p>
+				<br />
+
+				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
+					"I will do water, beautiful, blue water."
 				</p>
 				<br />
 
