@@ -71,21 +71,11 @@ export default function Home() {
 						</div>
 						<div>
 							<h1 className="text-lg font-semibold">Tech</h1>
-							<p className="text-sm font-light">Tech I use, new tech</p>
+							<p className="text-sm font-light">Coding, new tech, CS</p>
 						</div>
 					</div>
 				</Link>
 			</div>
-			{/* <div className="flex w-[100%]">
-				<input
-					type="email"
-					className="mx-auto w-[100%] rounded-l-lg bg-slate-100 py-4 px-4 font-sans outline-none placeholder:font-light"
-					placeholder="Get an email whenever I post!"
-				/>
-				<button className="text-light w-[25%] rounded-r-lg bg-primary font-sans text-white">
-					Sign up!
-				</button>
-			</div> */}
 		</div>
 	);
 }
