@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BsArrowLeftShort } from "react-icons/bs";
 import { CiCalendar } from "react-icons/ci";
 import { manhood, youth, childhood, oldage } from "../../utils/imgImports";
 
@@ -196,9 +197,10 @@ export default function () {
 
 				<Link
 					href="../art"
-					className="text-[1rem] font-semibold sm:text-[1.2rem]"
+					className="flex w-[7rem] items-center gap-1 rounded-2xl bg-slate-100 p-2 text-[1rem] font-semibold duration-200 hover:bg-slate-200 sm:w-[8.5rem] sm:text-[1.2rem]"
 				>
-					{"-"} Go back
+					<BsArrowLeftShort className="text-[1.5rem] sm:text-[1.7rem]" />
+					<span>Go back</span>
 				</Link>
 			</div>
 		</article>

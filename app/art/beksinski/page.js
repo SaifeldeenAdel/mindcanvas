@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
+import { BsArrowLeftShort } from "react-icons/bs";
+
 import {
 	graves,
 	portrait,
@@ -261,13 +263,13 @@ export default function () {
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					Excited to find out more about all of the other unique surrealism
 					artists out there but Zdzisław Beksiński was definitely one of the
-					best ones to get introduced to. You can check out more of this work{" "}
+					best ones to get introduced to. Check out his {" "}
 					<Link
 						href="https://www.artnet.com/artists/zdzislaw-beksinski/?type=paintings"
 						target="_blank"
-						className="font-semibold"
+						className="font-semibold underline-offset-4 underline"
 					>
-						here
+						collection of work
 					</Link>
 					.
 				</p>
@@ -276,9 +278,10 @@ export default function () {
 
 				<Link
 					href="../art"
-					className="text-[1rem] font-semibold sm:text-[1.2rem]"
+					className="flex w-[7rem] items-center gap-1 rounded-2xl bg-slate-100 p-2 text-[1rem] font-semibold duration-200 hover:bg-slate-200 sm:w-[8.5rem] sm:text-[1.2rem]"
 				>
-					{"-"} Go back
+					<BsArrowLeftShort className="text-[1.5rem] sm:text-[1.7rem]" />
+					<span>Go back</span>
 				</Link>
 			</div>
 		</article>

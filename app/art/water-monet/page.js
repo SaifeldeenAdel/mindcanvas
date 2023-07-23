@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BsArrowLeftShort } from "react-icons/bs";
+
 import { CiCalendar } from "react-icons/ci";
 import {
 	manhood,
@@ -95,13 +97,13 @@ export default function () {
 
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					I collected some of my favorites below but you can check out a lot
-					more{" "}
+					more of {" "}
 					<Link
 						href="https://commons.wikimedia.org/wiki/Category:Seascapes_by_Claude_Monet"
 						target="_blank"
-						className="font-semibold"
+						className="font-semibold underline underline-offset-4"
 					>
-						here.
+						Monet's art here.
 					</Link>{" "}
 					It is insane how many he's done and they're all so good.
 				</p>
@@ -165,7 +167,7 @@ export default function () {
 				<p className="text-justify text-[1.1rem] font-light sm:text-[1.3rem]">
 					I chose Monet's water work because it is something I personally liked.
 					I admire the rest of his work however this is the subset I found
-					myself actually going back to look at again. 
+					myself actually going back to look at again.
 				</p>
 				<br />
 
@@ -177,9 +179,10 @@ export default function () {
 				<br />
 				<Link
 					href="../art"
-					className="text-[1rem] font-semibold sm:text-[1.2rem]"
+					className="flex w-[7rem] items-center gap-1 rounded-2xl bg-slate-100 p-2 text-[1rem] font-semibold duration-200 hover:bg-slate-200 sm:w-[8.5rem] sm:text-[1.2rem]"
 				>
-					{"-"} Go back
+					<BsArrowLeftShort className="text-[1.5rem] sm:text-[1.7rem]" />
+					<span>Go back</span>
 				</Link>
 			</div>
 		</article>

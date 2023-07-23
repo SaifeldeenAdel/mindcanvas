@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CiCalendar } from "react-icons/ci";
+import { BsArrowLeftShort } from "react-icons/bs";
 import reflect from "../../../public/reflect.jpg";
 
 export const metadata = {
@@ -24,7 +25,7 @@ export default function () {
 			<Image
 				alt="journal"
 				src={reflect}
-        placeholder="blur"
+				placeholder="blur"
 				className="my-8 h-[8rem] max-w-[100%] rounded-lg object-cover sm:h-[10rem]"
 			/>
 			<div className="mx-4 font-nunito sm:mx-10">
@@ -153,9 +154,10 @@ export default function () {
 				<br />
 				<Link
 					href="../self"
-					className="text-[1rem] font-semibold sm:text-[1.2rem]"
+					className="flex w-[7rem] items-center gap-1 rounded-2xl bg-slate-100 p-2 text-[1rem] font-semibold duration-200 hover:bg-slate-200 sm:w-[8.5rem] sm:text-[1.2rem]"
 				>
-					{"-"} Go back
+					<BsArrowLeftShort className="text-[1.5rem] sm:text-[1.7rem]" />
+					<span>Go back</span>
 				</Link>
 			</div>
 		</article>
