@@ -1,5 +1,5 @@
 import Card from "../components/Card/Card";
-import { monsters, voyage, waves, pillars, sunset} from "../utils/imgImports";
+import { monsters, voyage, waves, pillars, sunset, magritte } from "../utils/imgImports";
 
 export const metadata = {
 	title: "• Art",
@@ -37,6 +37,14 @@ export default function () {
 					page="water-monet"
 					date="2 July, 2023"
 					img={sunset}
+				/>
+
+				<Card
+					section="art"
+					title="He made ordinary objects surreal"
+					page="rene-magritte"
+					date="3 August, 2023"
+					img={magritte}
 				/>
 			</div>
 		</div>

@@ -45,6 +45,21 @@ import ship from "../../public/ship.jpg";
 
 export { waves, antibes, cliff, waves2, harbour, ship, sunset };
 
+import magritte from '../../public/magritteCard.jpg'
+import mirror from '../../public/mirror.jpg'
+import empireoflight from '../../public/empireoflight.jpg'
+import horse from '../../public/horse.jpeg'
+import pipe from '../../public/pipe.jpg'
+import banquet from '../../public/banquet.jpg'
+import sonofman from '../../public/sonofman.jpg'
+import golconda from '../../public/golconda.jpg'
+import golconda2 from '../../public/golconda2.jpg'
+import falsemirror from '../../public/falsemirror.jpg'
+import invention from '../../public/invention.jpg'
+
+
+export {magritte, mirror, empireoflight, horse, pipe, banquet, sonofman, golconda, golconda2, falsemirror, invention}
+
 // BOOKS
 import darkmatter from "../../public/darkmatter.jpg";
 import project from "../../public/project.jpg";
