@@ -1,6 +1,7 @@
 
 import Card from "../components/Card/Card";
 import reflect from "../../public/reflect.jpg";
+import social from "../../public/social.jpg";
 import desk from "../../public/desk.jpg";
 
 export const metadata = {
@@ -20,7 +21,7 @@ export default function () {
 				</h2>
 			</header>
 
-			<div className="mx-6 mb-12 grid grid-cols-1 gap-5 sm:grid-cols-2">
+			<div className="mx-6 mb-12 grid grid-cols-1 gap-5 sm:grid-cols-3">
 				<Card
 					section="self"
 					page="reflect"
@@ -34,6 +35,13 @@ export default function () {
 					title="Everyone wants to be productive"
 					date="21 April, 2023"
 					img={desk}
+				/>
+        <Card
+					section="self"
+					page="off-the-grid"
+					title="I went 30 days without social media"
+					date="2 December, 2023"
+					img={social}
 				/>
 			</div>
 		</div>
