@@ -5,7 +5,7 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import social from "../../../public/social.jpg";
 
 export const metadata = {
-	title: "• I went 30 days without social media.",
+	title: "• I spent 30 days with no social media.",
 };
 
 export default function () {
@@ -19,7 +19,7 @@ export default function () {
 					</small>
 				</div>
 				<h1 className="font-sans text-[1.8rem] font-bold tracking-[0.02rem] sm:text-[2rem] md:text-[3rem]">
-					I went 30 days with no social media.
+					I spent 30 days with no social media.
 				</h1>
 			</header>
 			<Image

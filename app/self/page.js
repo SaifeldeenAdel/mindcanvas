@@ -39,7 +39,7 @@ export default function () {
         <Card
 					section="self"
 					page="off-the-grid"
-					title="I went 30 days without social media"
+					title="30 days without social media"
 					date="2 December, 2023"
 					img={social}
 				/>
